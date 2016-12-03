@@ -4,15 +4,21 @@
 <title>Bailey Stein</title>
 </head>
 <body>
-
-<h1>Hello World</h1>
-
+  <!--
+  <div id="profile">
+    <img id="profilepic" src="images/profile.jpg"/>
+  </div>
+  !-->
+  <div id="profile">
+    <img id="profilepic" src="images/profile.jpg"/>
+  </div>
 </body>
 <style>
   html {
       height: 100%;
       width: 100%;
   }
+
   body {
     background-image:url(images/background.jpg);
     background-repeat: no-repeat;
@@ -20,8 +26,20 @@
     background-attachment: fixed;
     background-size: cover;
   }
-  h1 {
-    color:white;
+
+  #profile {
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
   }
+
+  #profilepic {
+    width: 250px;
+    height: 250px;
+  }
+
 </style>
 </html>
