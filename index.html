@@ -9,18 +9,54 @@
     <img id="profilepic" src="images/profile.jpg"/>
     <b id="name">Bailey Stein</b>
     <b id="tagline">U-M Student &amp; Tech Reviewer</b>
-    <div id="social">
-      <a href="https://goo.gl/s5XYK5" target="_blank">
-        <img id="youtube" src="images/youtube-white.png"/>
+    <div id="socialdiv">
+      <a href="mailto:hello@baileystein.com" title="hello@baileystein.com" target="_blank">
+        <img id="social-rightmost" src="images/email-white.png"
+          onmouseover="this.src='images/email-color.png'"
+          onmouseout="this.src='images/email-white.png'"/>
       </a>
-      <!--
-      <img id="gplus2" src="images/google-icon.png"/>
-      <img id="gplus3" src="images/google-icon.png"/>
-      <img id="gplus4" src="images/google-icon.png"/>
-      <img id="gplus5" src="images/google-icon.png"/>
-      <img id="gplus6" src="images/google-icon.png"/>
-      <img id="gplus7" src="images/google-icon.png"/>
-      <img id="gplus8" src="images/google-icon.png"/>
+      <a href="https://goo.gl/1o06E1" target="_blank">
+        <img id="social" src="images/twitter-white.png"
+          onmouseover="this.src='images/twitter-color.png'"
+          onmouseout="this.src='images/twitter-white.png'"/>
+      </a>
+      <a href="https://goo.gl/s5XYK5" target="_blank">
+        <img id="social" src="images/youtube-white.png"
+          onmouseover="this.src='images/youtube-color.png'"
+          onmouseout="this.src='images/youtube-white.png'"/>
+      </a>
+      <a href="https://goo.gl/9HtLGF" target="_blank">
+        <img id="social-narrow" src="images/aa-white.png"
+          onmouseover="this.src='images/aa-color.png'"
+          onmouseout="this.src='images/aa-white.png'"/>
+      </a>
+      <a href="https://goo.gl/x7DTDw" target="framename">
+        <img id="social-narrow" src="images/snapchat-white.png"
+          onmouseover="this.src='images/snapchat-color.png'"
+          onmouseout="this.src='images/snapchat-white.png'"/>
+      </a>
+      <a href="https://goo.gl/BeHfPk" target="_blank">
+        <img id="social" src="images/instagram-white.png"
+          onmouseover="this.src='images/instagram-color.png'"
+          onmouseout="this.src='images/instagram-white.png'"/>
+      </a>
+      <a href="https://goo.gl/SQAl3b" target="_blank">
+        <img id="social" src="images/googleplus-white.png"
+          onmouseover="this.src='images/googleplus-color.png'"
+          onmouseout="this.src='images/googleplus-white.png'"/>
+      </a>
+      <a href="https://goo.gl/854vvZ" target="_blank">
+        <img id="social" src="images/github-white.png"
+          onmouseover="this.src='images/github-color.png'"
+          onmouseout="this.src='images/github-white.png'"/>
+      </a>
+      <!-- you could add a link to your resume here,
+            just use 475px for the socialdiv width and 800px for the profilediv
+      <a href="" target="_blank">
+        <img id="social" src="images/resume-white.png"
+          onmouseover="this.src='images/resume-color.png'"
+          onmouseout="this.src='images/resume-white.png'"/>
+      </a>
       !-->
     </div>
   </div>
@@ -37,15 +73,19 @@
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    /* alternatively, use a background color, preferably one dominating in the
+       profile picture
+    background-color: #0b6460;
+    */
   }
 
   #profile {
     position: fixed;
-    width: 830px;
+    width: 740px;
     height: 300px;
     top: 50%;
     left: 50%;
-    margin: -150px 0 0 -415px;
+    margin: -150px 0 0 -370px;
   }
 
   #profilepic {
@@ -57,7 +97,7 @@
   #name {
     float: right;
     padding-right: 20px;
-    padding-top: 109px;
+    padding-top: 119px;
     color: white;
     font-size: 350%;
     font-weight: bold;
@@ -74,74 +114,33 @@
     font-family: 'Open Sans', sans-serif;
   }
 
-  #social {
+  #socialdiv {
     float: right;
-    width: 505px;
-    height: 50px;
+    width: 420px;
+    height: 40px;
     padding-right: 20px;
     padding-top: 20px;
   }
 
-  #youtube {
-    width: 50px;
-    height: 50px;
+  #social-rightmost {
+    width: 40px;
+    height: 40px;
     float: right;
   }
 
-  #youtube:hover {
-    src:url("https://bstein.github.io/images/youtube-color.png");
-  }
-
-/*
-  #gplus2 {
-    width: 50px;
-    height: 50px;
+  #social {
+    width: 40px;
+    height: 40px;
     float: right;
     padding-right: 15px;
   }
 
-  #gplus3 {
-    width: 50px;
-    height: 50px;
+  #social-narrow {
+    width: 40px;
+    height: 40px;
     float: right;
-    padding-right: 15px;
+    padding-right: 12px;
   }
-
-  #gplus4 {
-    width: 50px;
-    height: 50px;
-    float: right;
-    padding-right: 15px;
-  }
-
-  #gplus5 {
-    width: 50px;
-    height: 50px;
-    float: right;
-    padding-right: 15px;
-  }
-
-  #gplus6 {
-    width: 50px;
-    height: 50px;
-    float: right;
-    padding-right: 15px;
-  }
-
-  #gplus7 {
-    width: 50px;
-    height: 50px;
-    float: right;
-    padding-right: 15px;
-  }
-
-  #gplus8 {
-    width: 50px;
-    height: 50px;
-    float: right;
-    padding-right: 15px;
-  }
-  */
 
 </style>
 </html>
