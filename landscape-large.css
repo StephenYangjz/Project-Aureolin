@@ -18,27 +18,24 @@ body {
 
 #profile {
   position: fixed;
-  width: 420px;
-  height: 496px;
+  width: 746px;
+  height: 300px;
   top: 50%;
   left: 50%;
-  margin: -248px 0 0 -210px;
+  margin: -150px 0 0 -373px;
 }
 
 #profilepic {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  display:block;
-  margin:auto;
+  float: right;
 }
 
 #name {
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  width: 420px;
-  padding-top: 15px;
+  float: right;
+  padding-right: 20px;
+  padding-top: 52px;
   color: white;
   font-size: 350%;
   font-weight: bold;
@@ -46,22 +43,20 @@ body {
 }
 
 #tagline {
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  width: 420px;
-  color: white;
+  float: right;
+  padding-right: 20px;
   padding-top: 5px;
+  color: white;
   font-size: 180%;
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
 }
 
 #socialdiv {
-  display: inline-block;
-  position: relative;
-  width: 420px;
+  float: right;
+  width: 424px;
   height: 40px;
+  padding-right: 20px;
   padding-top: 20px;
 }
 
@@ -69,33 +64,36 @@ body {
   width: 40px;
   height: 40px;
   float: left;
-  padding-right: 15px;
+  padding-right: 8px;
 }
 
 #social-rightmost {
   width: 40px;
   height: 40px;
   float: left;
-  padding-right: 1px;
+  padding-left: 8px;
 }
 
 #social {
   width: 40px;
   height: 40px;
   float: left;
-  padding-right: 15px;
+  padding-right: 8px;
+  padding-left: 8px;
 }
 
-#social-snapchat {
+#social-break {
   width: 40px;
   height: 40px;
   float: left;
-  padding-right: 12px;
+  padding-right: 8px;
+  padding-left: 8px;
 }
 
 #social-narrow {
   width: 40px;
   height: 40px;
   float: left;
-  padding-right: 12px;
+  padding-right: 4px;
+  padding-left: 4px;
 }
