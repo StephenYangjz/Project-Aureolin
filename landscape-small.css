@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+  background-image:url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  /* alternatively, use a background color, preferably one dominating in the
+     profile picture
+  background-color: #0b6460;
+  */
+}
+
+#profile {
+  position: fixed;
+  width: 528px;
+  height: 231px;
+  top: 50%;
+  left: 50%;
+  margin: -115px 0 0 -264px;
+}
+
+#profilepic {
+  width: 231px;
+  height: 231px;
+  border-radius: 50%;
+  float: right;
+}
+
+#name {
+  float: right;
+  padding-right: 15px;
+  padding-top: 40px;
+  color: white;
+  font-size: 250%;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tagline {
+  float: right;
+  padding-right: 15px;
+  padding-top: 5px;
+  color: white;
+  font-size: 120%;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#socialdiv {
+  float: right;
+  width: 282px;
+  height: 27px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+#social-leftmost {
+  width: 27px;
+  height: 27px;
+  float: left;
+  padding-right: 5px;
+}
+
+#social-rightmost {
+  width: 27px;
+  height: 27px;
+  float: left;
+  padding-left: 5px;
+}
+
+#social {
+  width: 27px;
+  height: 27px;
+  float: left;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#social-break {
+  width: 27px;
+  height: 27px;
+  float: left;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#social-narrow {
+  width: 27px;
+  height: 27px;
+  float: left;
+  padding-right: 3px;
+  padding-left: 3px;
+}
