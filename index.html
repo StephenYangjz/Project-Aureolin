@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Bailey Stein</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
   <!--
@@ -11,6 +12,8 @@
   !-->
   <div id="profile">
     <img id="profilepic" src="images/profile.jpg"/>
+    <b id="name">Bailey Stein</b>
+    <b id="tagline">U-M Student &amp; Tech Reviewer</b>
   </div>
 </body>
 <style>
@@ -29,16 +32,37 @@
 
   #profile {
     position: fixed;
-    width: 250px;
+    width: 750px;
     height: 250px;
     top: 50%;
     left: 50%;
-    margin: -125px 0 0 -125px;
+    margin: -125px 0 0 -375px;
   }
 
   #profilepic {
     width: 250px;
     height: 250px;
+    float: right;
+  }
+
+  #name {
+    float: right;
+    padding-right: 20px;
+    padding-top: 140px;
+    color: white;
+    font-size: 300%;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #tagline {
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: white;
+    font-size: 170%;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
   }
 
 </style>
