@@ -9,6 +9,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  background-color: black;
   /* alternatively, use a background color, preferably one dominating in the
      profile picture
   background-color: #0b6460;
