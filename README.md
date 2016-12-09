@@ -1,6 +1,6 @@
-# ProjectAuerolin
+# Project Auerolin
 
-ProjectAureolin is a simple but elegant approach to the single page web profile. It offers a framework for showcasing your name, a single line bio, a profile image, and a multitude of social media links on a beautiful, responsive page.
+Project Aureolin is a simple but elegant approach to the single page web profile. It offers a framework for showcasing your name, a single line bio, a profile image, and a multitude of social media links on a beautiful, responsive page.
 
 For best results, I suggest forking this repository and hosting your own site for free on GitHub pages. You can make changes to the page as you see fit, and, if you'd like, you can point a new or existing domain to your fork.
 
