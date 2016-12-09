@@ -91,7 +91,7 @@ body {
   padding-left: 6px;
 }
 
-#social-break {
+#social-right {
   width: 40px;
   height: 40px;
   float: left;
@@ -99,7 +99,7 @@ body {
   padding-left: 6px;
 }
 
-#social-narrow {
+#social-left {
   width: 40px;
   height: 40px;
   float: left;

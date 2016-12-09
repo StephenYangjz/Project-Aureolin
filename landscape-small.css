@@ -18,11 +18,11 @@ body {
 
 #profile {
   position: fixed;
-  width: 528px;
+  width: 532px;
   height: 231px;
   top: 50%;
   left: 50%;
-  margin: -115px 0 0 -264px;
+  margin: -115px 0 0 -266px;
 }
 
 #profilepic {
@@ -54,7 +54,7 @@ body {
 
 #socialdiv {
   float: right;
-  width: 282px;
+  width: 286px;
   height: 27px;
   padding-right: 15px;
   padding-top: 15px;
@@ -82,7 +82,7 @@ body {
   padding-left: 5px;
 }
 
-#social-break {
+#social-right {
   width: 27px;
   height: 27px;
   float: left;
@@ -90,10 +90,10 @@ body {
   padding-left: 5px;
 }
 
-#social-narrow {
+#social-left {
   width: 27px;
   height: 27px;
   float: left;
-  padding-right: 3px;
-  padding-left: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
