@@ -59,26 +59,9 @@ body {
 #socialdiv {
   display: table;
   margin: 0 auto;
-  width: 196px;
+  width: 208px;
   height: 95px;
   padding-top: 10px;
-}
-
-
-#social-leftmost {
-  width: 40px;
-  height: 40px;
-  float: left;
-  padding-top: 15px;
-  padding-right: 6px;
-}
-
-#social-rightmost {
-  width: 40px;
-  height: 40px;
-  float: left;
-  padding-top: 15px;
-  padding-left: 6px;
 }
 
 #social {
@@ -88,20 +71,4 @@ body {
   padding-top: 15px;
   padding-right: 6px;
   padding-left: 6px;
-}
-
-#social-right {
-  width: 40px;
-  height: 40px;
-  float: left;
-  padding-top: 15px;
-  padding-left: 6px;
-}
-
-#social-left {
-  width: 40px;
-  height: 40px;
-  float: left;
-  padding-top: 15px;
-  padding-right: 6px;
 }
